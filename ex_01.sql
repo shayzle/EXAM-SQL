@@ -9,13 +9,14 @@
     SELECT colonne -- = c'est une facon où nous voulons chercher une information spécifique dans une colonne spécifique.
 
 -- 4. Quel terme permet de ne pas afficher les doublons ? Donnez un exemple 💡
+    SELECT
 
 
 -- 5. Quel mot-clé permet de filtrer les résultats ?
     SHOW -- = c'est un mot-clé permet de filtrer les résultats en montrant la vraie valeur qu'on cherche par demander l'information spécifique.
 
 -- 6. Comment rechercher une valeur partielle dans une colonne ? Donnez un exemple
-    SELECT
+    SELECT inline join table1;
 
 -- 7. Quelle est la différence entre AND et OR ?
     -- la différence entre AND et OR :
@@ -23,6 +24,7 @@
         -- OR = c'est quand nous voulons chercher une valeur en mettant ou en utilisant soit le premiere information soit le deuxième information pour nous aider de trouver la vraie valeur.
 
 -- 8. Quelle fonction permet de compter le nombre de lignes ? 💡
+    SELECT * FROM NOM_TABLE
 
 -- 9. Quelle est la différence entre DROP et DELETE ?
     -- la différence entre DROP et DELETE :
